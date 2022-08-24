@@ -1,11 +1,15 @@
 /* ---VARIABLES---------------------------------------------- */
 :root{
     /* --name: value */
-    --bg-color: #fafafa;
-    --main-color: #252b42;
-    --main-font-family: "Montserrat", sans-serif;
-    --main-font-weight: 500;
-    --main-font-size: 14px;
+    --bg-color: #fff;
+    --main-color: #444A4A;
+    --main-font-family: "Alegreya Sans", sans-serif;
+    --Josefin-font-family: "Josefin Sans", sans-serif;
+    --cedarville-font-family: "Cedarville Cursive", sans-serif;
+    --georgian-font-family: "Noto Sans Georgian", sans-serif;
+    --roboto-font-family: "Roboto", sans-serif;
+    --main-font-weight: 400;
+    --main-font-size: 19px;
 }
 /* ---MAIN STYLE---------------------------------------------- */
 *,
@@ -60,7 +64,7 @@ body {
 
 /* ---CONTAINER---------------------------------------------- */
 ._container {
-    max-width: 1046px;
+    max-width: 1200px;
     padding: 0 15px;
     margin: 0 auto;
     box-sizing: content-box;
@@ -98,7 +102,7 @@ body {
 }
 .header__container {
     display: flex;
-     min-height: 104px; /* exmp 104px*/
+    min-height: 43px; /* exmp 104px*/
     align-items: center;
 }
 /* STYLING CLASS END*/
