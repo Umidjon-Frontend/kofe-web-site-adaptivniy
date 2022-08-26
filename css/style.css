@@ -312,6 +312,8 @@ body {
 .page{
 
 }
+.page__main-block {
+}
 /* STYLING CLASS END*/
 /* MEDIA QUERY */
 @media (max-width: 2560px) {
@@ -347,8 +349,185 @@ body {
 
 /* ---SECTION NAME---------------------------------------------- */
 /* STYLING CLASS */
-.section-name{
 
+.main-block {
+    padding: 129px 0px 190px 0px;
+    
+}
+.main-block__container {
+    
+}
+.main-block__body {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    min-height: 466px;
+}
+.main-block__column {
+    flex: 0 1 50%;
+    margin: 0;
+}
+.main-block__column > *:not(:last-child){
+    margin: 0px 0px 26px 0px;
+
+}
+.main-block__subtitle {
+    font-size: 28px;
+    line-height: calc(53 / 28 * 100%);
+    font-family: var(--cedarville-font-family);
+}
+.main-block__title {
+    font-family: var(--Josefin-font-family);
+    font-weight: 700;
+    font-size: 63px;
+    color: var(--black-color);
+}
+.main-block__button {
+    min-width: 235px;
+    min-height: 54px;
+    font-size: 20px;
+    line-height: calc(25 / 20 * 100%);
+    font-family: var(--georgian-font-family);
+    cursor: pointer;
+}
+.main-block__button:focus{
+    /* focus item */
+    outline: none;
+}
+.main-block__button img{
+    display: none;
+}
+.main-block__img {
+    max-width: 410px;
+    min-height: 466px;
+    background-color: var(--three-color);
+    position: relative;
+    margin: 0px 72px 0px auto;
+}
+.main-block__next{
+    position: absolute;
+    bottom: 0;
+    left: -159px;
+    width: 159px;
+    height: 157px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F4F7F5;
+    cursor: pointer;
+}
+.main-block__img .coffee{
+    position: absolute;
+    right: 27px;
+    bottom: -47px;
+}
+.main-block__social{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+}
+.social__link:not(:first-child) {
+    margin: 14px 0px 0px 0px;
+}
+.social__text{
+    font-family: var(--Josefin-font-family);
+    font-weight: 700;
+    font-size: 28px;
+    transform: rotate(-90deg);
+    margin: 55px -43px 46px 0px;
+}
+/* STYLING CLASS END*/
+
+/* MEDIA QUERY */
+/* max-width: 2560px 4K */
+@media (max-width: 2560px) {
+    /* classes */
+}
+/* max-width: 1440 Laptop L */
+@media (max-width: 1440px) {
+    /* classes */
+}
+/* max-width: 1024px Laptop */
+@media (max-width: 1024px) {
+    /* classes */
+    .main-block__column {
+        flex: 1 1 100%;
+        text-align: center;
+    }
+    .main-block__column:nth-child(2){
+        display: none;
+    }
+    .main-block__subtitle{
+        font-size: 32px;
+    }
+    .main-block__title{
+        font-size: 75px;
+    }
+    .main-block__button{
+        display: flex;
+        justify-content: space-between;
+        margin: 0px auto;
+    }
+    .main-block__button img{
+        display: block;
+
+    }
+    .main-block__social{
+        display: none;
+    }
+
+}
+/* max-width: 768px Table */
+@media (max-width: 768px) {
+    /* classes */
+    .main-block__subtitle{
+        font-size: 24px;
+    }
+    .main-block__title{
+        font-size: 60px;
+    }
+}
+/* max-width: 425px Mobile L */
+@media (max-width: 425px) {
+    /* classes */
+    .main-block__column{
+        width: 100%;
+    }
+    .main-block__subtitle{
+        font-size: 19px;
+    }
+    .main-block__title{
+        font-size: 54px;
+    }
+    .main-block__button{
+        min-width: 189px;
+        font-size: 16px;
+        padding: 5px 18px;
+    }
+}
+/* max-width: 375px Mobile M */
+@media (max-width: 375px) {
+    /* classes */
+}
+/* max-width: 320px Mobile s */
+@media (max-width: 320px) {
+    /* classes */
+    .main-block__title{
+        font-size: 45px;
+    }
+}
+/* MEDIA QUERY END*/
+/* ---SECTION NAME END---------------------------------------------- */
+
+
+/* ---SECTION NAME---------------------------------------------- */
+/* STYLING CLASS */
+.section-name{
+    
 }
 /* STYLING CLASS END*/
 
@@ -383,8 +562,6 @@ body {
 }
 /* MEDIA QUERY END*/
 /* ---SECTION NAME END---------------------------------------------- */
-
-
 /* ---FOOTER---------------------------------------------- */
 /* STYLING CLASS */
 .footer{
