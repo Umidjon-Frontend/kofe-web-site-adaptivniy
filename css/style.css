@@ -314,6 +314,8 @@ body {
 }
 .page__main-block {
 }
+.page__about-us {
+}
 /* STYLING CLASS END*/
 /* MEDIA QUERY */
 @media (max-width: 2560px) {
@@ -523,6 +525,216 @@ body {
 /* MEDIA QUERY END*/
 /* ---SECTION NAME END---------------------------------------------- */
 
+
+/* ---About us---------------------------------------------- */
+/* STYLING CLASS */
+
+.about-us {
+    padding: 0px 0px 157px 0px;
+}
+.about-us__container {
+}
+.about-us__body {
+    display: flex;
+}
+
+.about-us__column:nth-child(1){
+    flex: 0 1 31.6666%;
+    margin: 0px 103px 0px 0px;
+}
+.about-us__column:nth-child(2) {
+    flex: 0 1 68.3333%;
+    padding: 0px 72px 0px 0px;
+}
+.about-us__img {
+    min-width: 380px;
+    min-height: 287px;
+    background-color: var(--two-color);
+    position: relative;
+}
+.about-us__img img{
+    position: absolute;
+    right: -12px;
+    bottom: -54px;
+}
+.about-us__img::after{
+    content: "About us";
+    position: absolute;
+    left: -40px;
+    top: 7px;
+    font-family: var(--cedarville-font-family);
+    font-size: 28px;
+    line-height: calc(53 / 28 * 100%);
+    color: var(--black-color);
+    opacity: 0.75;
+    transform: rotate(-90deg);
+}
+.about-us__title {
+    font-family: var(--Josefin-font-family);
+    font-weight: 700;
+    font-size: 38px;
+    color: var(--black-color);
+    margin: 0px 0px 25px 0px;
+}
+.about-us__texts {
+    max-width: 645px;
+}
+.about-us__text {
+    line-height: calc(39 / 19 * 100%);
+    letter-spacing: 0.1%;
+}
+.about-us__text:not(:last-child){
+    margin: 0px 0px 15px 0px;
+}
+/* STYLING CLASS END*/
+
+/* MEDIA QUERY */
+/* max-width: 2560px 4K */
+@media (max-width: 2560px) {
+    /* classes */
+}
+/* max-width: 1440 Laptop L */
+@media (max-width: 1440px) {
+    /* classes */
+}
+/* max-width: 1024px Laptop */
+@media (max-width: 1024px) {
+    /* classes */
+    .about-us__title{
+        font-size: 28px;
+        margin: 0px 0px 10px 0px;
+    }
+    .about-us__text {
+        font-size: 16px;
+    }
+    .about-us__text:not(:last-child){
+        margin: 0px 0px 5px 0px;
+    }
+}
+/* max-width: 900px Table */
+@media (max-width: 900px) {
+    /* classes */
+    .about-us__container {
+        padding: 0;
+    }
+    .about-us__body {
+        flex-direction: column;
+    }
+    .about-us__column:nth-child(1){
+        flex: 0 1 100%;
+        margin: 0px 0px 70px 0px;
+    }
+    .about-us__column:nth-child(2) {
+        flex: 0 1 100%;
+        padding: 0px 20px;
+    }
+    .about-us__img img{
+        position: absolute;
+        top: 70%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .about-us__texts {
+
+    }
+}
+/* max-width: 768px Table */
+@media (max-width: 768px) {
+    /* classes */
+    .about-us__column:nth-child(1){
+        margin: 0px 0px 0px 0px;
+    }
+    .about-us__img::after{
+        display: none;
+    }
+    .about-us__img {
+        min-width: 380px;
+        min-height: 248px;
+        background-color: var(--two-color);
+        position: relative;
+    }
+    .about-us__img img{
+        width: 339px;
+        height: 245px;
+        position: absolute;
+        top: 40%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .about-us__title{
+        font-size: 38px;
+        margin: 30px 0px 30px 0px;
+    }
+    .about-us__text {
+        font-size: 19px;
+    }
+    .about-us__text:not(:last-child){
+        margin: 0px 0px 30px 0px;
+    }
+}
+/* max-width: 425px Mobile L */
+@media (max-width: 425px) {
+    /* classes */
+}
+/* max-width: 375px Mobile M */
+@media (max-width: 375px) {
+    /* classes */
+    .about-us__img img{
+        width: 300px;
+        height: 225px;
+        left: 46%;
+    }
+}
+/* max-width: 320px Mobile s */
+@media (max-width: 320px) {
+    /* classes */
+    .about-us__img img{
+        width: 290px;
+        left: 42%;
+        top: 37%;
+    }
+}
+/* MEDIA QUERY END*/
+/* ---About us END---------------------------------------------- */
+
+/* ---SECTION NAME---------------------------------------------- */
+/* STYLING CLASS */
+.section-name{
+    
+}
+/* STYLING CLASS END*/
+
+/* MEDIA QUERY */
+/* max-width: 2560px 4K */
+@media (max-width: 2560px) {
+    /* classes */
+}
+/* max-width: 1440 Laptop L */
+@media (max-width: 1440px) {
+    /* classes */
+}
+/* max-width: 1024px Laptop */
+@media (max-width: 1024px) {
+    /* classes */
+}
+/* max-width: 768px Table */
+@media (max-width: 768px) {
+    /* classes */
+}
+/* max-width: 425px Mobile L */
+@media (max-width: 425px) {
+    /* classes */
+}
+/* max-width: 375px Mobile M */
+@media (max-width: 375px) {
+    /* classes */
+}
+/* max-width: 320px Mobile s */
+@media (max-width: 320px) {
+    /* classes */
+}
+/* MEDIA QUERY END*/
+/* ---SECTION NAME END---------------------------------------------- */
 
 /* ---SECTION NAME---------------------------------------------- */
 /* STYLING CLASS */
