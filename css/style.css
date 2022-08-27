@@ -1213,6 +1213,12 @@ body {
 .footer{
 
 }
+.footer__copy{
+    text-align: center;
+    font-size: 14px;
+    font-family: var(--Josefin-font-family);
+    line-height: calc(36 / 14 * 100%);
+}
 /* STYLING CLASS END*/
 
 /* MEDIA QUERY */
